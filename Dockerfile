@@ -46,5 +46,6 @@ RUN pip install cymem
 RUN pip install thinc
 RUN pip install https://github.com/spacy-io/spaCy/zipball/master
 RUN python -m spacy download en
-
+RUN pip install flask
+RUN pip install opencv-python
 WORKDIR /workspace
