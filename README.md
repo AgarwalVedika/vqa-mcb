@@ -58,3 +58,14 @@ Please cite [our paper](https://arxiv.org/abs/1606.01847) if it helps your resea
   year={2016},
 }
 ```
+### Docker
+
+#### Building Container
+```bash
+docker build -t caffe .
+```
+
+#### Working with your local code with container
+```bash
+docker run -v `pwd`:/workspace -it caffe bash
+```
